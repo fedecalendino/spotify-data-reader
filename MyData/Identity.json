@@ -1,0 +1,9 @@
+{
+  "displayName": "Display Name",
+  "firstName": "First",
+  "lastName": "Last",
+  "imageUrl": "https://via.placeholder.com/64",
+  "largeImageUrl": "https://via.placeholder.com/300",
+  "tasteMaker": false,
+  "verified": false
+}

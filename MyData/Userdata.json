@@ -1,0 +1,14 @@
+{
+  "username": "username",
+  "email": "name@domain.com",
+  "country": "US",
+  "createdFromFacebook": false,
+  "facebookUid": null,
+  "birthdate": "1990-01-01",
+  "gender": "male",
+  "postalCode": null,
+  "mobileNumber": "+1234567890",
+  "mobileOperator": null,
+  "mobileBrand": null,
+  "creationTime": "2010-01-01"
+}

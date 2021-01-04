@@ -18,6 +18,12 @@ def streaming_history():
             file = open(f"./MyData/StreamingHistory{index}.json")
 
             for item in json.load(file):
+                if item.get("artistName") == "Unknown Artist":
+                    continue
+
+                if item.get("trackName") == "Unknown Track":
+                    continue
+
                 yield Item(
                     artist=item.get("artistName"),
                     track=item.get("trackName"),

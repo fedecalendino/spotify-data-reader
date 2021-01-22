@@ -16,7 +16,7 @@ for item in streaming_history():
 for week, counter in counters.items():
     print(f"Week {week}:")
 
-    for (artist, track), count in counter.most_common(3):
+    for (artist, track), count in counter.most_common(2):
         print(f" * {track} by {artist} > ({count})")
 
     print()

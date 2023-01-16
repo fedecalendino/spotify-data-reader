@@ -9,3 +9,7 @@ dist/
 
 .venv/
 venv/
+
+
+*json
+tmp.py
